@@ -1,0 +1,94 @@
+{
+ "jobs": [
+  {
+   "id": 1012,
+   "url": "https://remotive.example.test/1012",
+   "title": "Senior Mobile Engineer",
+   "company_name": "Northwind Robotics, Inc.",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will join the Infrastructure team. You will design, build and operate services as a mobile engineer. Requirements: 5-8 years of professional software experience. Hands-on experience with kotlin, swift, android, graphql. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  },
+  {
+   "id": 1016,
+   "url": "https://remotive.example.test/1016",
+   "title": "Full Stack Engineer",
+   "company_name": "Lumen Analytics Inc",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will design, build and operate services as a full stack engineer. Requirements: 2-4 years of professional software experience. Hands-on experience with javascript, node.js, react, postgresql, docker. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  },
+  {
+   "id": 1037,
+   "url": "https://remotive.example.test/1037",
+   "title": "Junior Data Engineer",
+   "company_name": "Quarry Labs",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will design, build and operate services as a data engineer. Requirements: 0-2 years of professional software experience. Hands-on experience with python, sql, spark, airflow, snowflake, kafka. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  },
+  {
+   "id": 1072,
+   "url": "https://remotive.example.test/1072",
+   "title": "Machine Learning Engineer",
+   "company_name": "Orbit Freight",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will design, build and operate services as a machine learning engineer. Requirements: 2-4 years of professional software experience. Hands-on experience with python, pytorch, machine learning, docker, kubernetes, mlops. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  },
+  {
+   "id": 1086,
+   "url": "https://remotive.example.test/1086",
+   "title": "Junior Backend Engineer",
+   "company_name": "Kestrel AI, Inc.",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will design, build and operate services as a backend engineer. Requirements: 0-2 years of professional software experience. Hands-on experience with python, postgresql, fastapi, docker, aws, redis. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  },
+  {
+   "id": 1108,
+   "url": "https://remotive.example.test/1108",
+   "title": "Staff Mobile Engineer",
+   "company_name": "Tundra Cloud",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will design, build and operate services as a mobile engineer. Requirements: 8+ years of professional software experience. Hands-on experience with kotlin, swift, android, ios, git. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  },
+  {
+   "id": 1117,
+   "url": "https://remotive.example.test/1117",
+   "title": "Staff Mobile Engineer",
+   "company_name": "Tundra Cloud",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will join the Platform team. You will design, build and operate services as a mobile engineer. Requirements: 8+ years of professional software experience. Hands-on experience with swift, ios, git, graphql. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  },
+  {
+   "id": 1128,
+   "url": "https://remotive.example.test/1128",
+   "title": "Senior Security Engineer",
+   "company_name": "Verdant Energy Corp",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will design, build and operate services as a security engineer. Requirements: 5-8 years of professional software experience. Hands-on experience with python, linux, aws, go, terraform. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  },
+  {
+   "id": 1138,
+   "url": "https://remotive.example.test/1138",
+   "title": "Senior Data Scientist",
+   "company_name": "Pillar Games",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will design, build and operate services as a data scientist. Requirements: 5-8 years of professional software experience. Hands-on experience with python, pandas, sql, scikit-learn, machine learning. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  },
+  {
+   "id": 1142,
+   "url": "https://remotive.example.test/1142",
+   "title": "NLP Research Engineer",
+   "company_name": "Pillar Games",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>You will design, build and operate services as a nlp research engineer. Requirements: 2-4 years of professional software experience. Hands-on experience with python, pytorch, nlp, llm, rag. Strong communication and a bias for shipping.</p>",
+   "publication_date": "2026-10-02T09:00:00"
+  }
+ ]
+}

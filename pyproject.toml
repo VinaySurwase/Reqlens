@@ -1,0 +1,56 @@
+[project]
+name = "reqlens"
+version = "0.1.0"
+description = "Live job-search engine: cross-source dedup, incremental freshness, LLM extraction, hybrid search, agent, and an honest eval harness."
+requires-python = ">=3.11"
+dependencies = [
+  "sqlalchemy>=2.0,<2.2",
+  "psycopg[binary]>=3.1",
+  "pgvector>=0.3",
+  "alembic>=1.13",
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "pydantic>=2.6",
+  "pydantic-settings>=2.2",
+  "httpx>=0.27",
+  "tenacity>=8.2",
+  "google-genai>=1.0",
+  "slowapi>=0.1.9",
+  "pyyaml>=6.0",
+  "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "respx>=0.21", "ruff>=0.4", "mypy>=1.10", "types-PyYAML"]
+
+[project.scripts]
+reqlens = "reqlens.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "function"
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B008", "E501"]
+
+[tool.mypy]
+python_version = "3.11"
+plugins = ["pydantic.mypy"]
+ignore_missing_imports = true
+check_untyped_defs = true
+[[tool.mypy.overrides]]
+module = ["reqlens.ingest.*", "reqlens.dedup.*", "reqlens.search.*", "reqlens.agent.*", "reqlens.extract.*"]
+disallow_untyped_defs = true

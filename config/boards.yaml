@@ -1,0 +1,7 @@
+# Curated company boards. OWNER ACTION: verify each token exists (open the board URL in a browser)
+# and pick companies so the same role plausibly also appears on another source (see docs/SOURCES.md).
+# These are placeholders, NOT verified. Remove/replace freely.
+greenhouse: []
+  # - {token: "examplecorp", company: "Example Corp"}
+lever: []
+  # - {token: "examplecorp", company: "Example Corp"}
